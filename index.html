@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureLife Insurance - Protect Your Future</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>SecureLife</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#calculator" class="nav-link">Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Secure Your Family's Future</h1>
+                <p class="hero-subtitle">Comprehensive life insurance solutions tailored to protect what matters most. Get peace of mind knowing your loved ones are protected.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('calculator')">Get Free Quote</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('products')">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Family Protection</h3>
+                    <p>Ensure your family's financial security</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose SecureLife?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Comprehensive Coverage</h3>
+                    <p>Flexible policies that adapt to your changing needs and life circumstances.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Competitive Rates</h3>
+                    <p>Affordable premiums with excellent value and comprehensive benefits.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer service to assist you whenever you need help.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Quick Claims</h3>
+                    <p>Fast and efficient claims processing to support you during difficult times.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About SecureLife Insurance</h2>
+                    <p>With over 25 years of experience in the insurance industry, SecureLife has been protecting families and securing futures across the nation. We understand that every family is unique, which is why we offer personalized insurance solutions.</p>
+                    <p>Our mission is to provide peace of mind through reliable, affordable, and comprehensive life insurance coverage. We're committed to being there when you need us most.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500K+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>25+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>99%</h3>
+                            <p>Claims Approval</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Insurance Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Term Life Insurance</h3>
+                    <p>Affordable coverage for a specific period. Perfect for protecting your family during your working years.</p>
+                    <ul>
+                        <li>Fixed premiums</li>
+                        <li>Death benefit protection</li>
+                        <li>Flexible terms</li>
+                        <li>Convertible options</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="product-card featured">
+                    <div class="product-badge">Most Popular</div>
+                    <div class="product-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>Whole Life Insurance</h3>
+                    <p>Lifetime coverage with cash value accumulation. Build wealth while protecting your family.</p>
+                    <ul>
+                        <li>Lifetime coverage</li>
+                        <li>Cash value growth</li>
+                        <li>Guaranteed premiums</li>
+                        <li>Dividend potential</li>
+                    </ul>
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Universal Life Insurance</h3>
+                    <p>Flexible premiums and death benefits with potential for cash value growth.</p>
+                    <ul>
+                        <li>Flexible premiums</li>
+                        <li>Adjustable death benefit</li>
+                        <li>Cash value growth</li>
+                        <li>Tax advantages</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <h2 class="section-title">Insurance Quote Calculator</h2>
+            <div class="calculator-container">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" min="18" max="85" value="30">
+                    </div>
+                    <div class="form-group">
+                        <label for="coverage">Coverage Amount ($)</label>
+                        <select id="coverage">
+                            <option value="100000">$100,000</option>
+                            <option value="250000">$250,000</option>
+                            <option value="500000" selected>$500,000</option>
+                            <option value="1000000">$1,000,000</option>
+                            <option value="2000000">$2,000,000</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="term">Term Length</label>
+                        <select id="term">
+                            <option value="10">10 Years</option>
+                            <option value="20" selected>20 Years</option>
+                            <option value="30">30 Years</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="health">Health Status</label>
+                        <select id="health">
+                            <option value="excellent">Excellent</option>
+                            <option value="good" selected>Good</option>
+                            <option value="average">Average</option>
+                            <option value="poor">Poor</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" onclick="calculateQuote()">Calculate Quote</button>
+                </div>
+                <div class="calculator-result">
+                    <div class="result-card">
+                        <h3>Estimated Monthly Premium</h3>
+                        <div class="premium-amount" id="premium-amount">$0</div>
+                        <div class="result-details">
+                            <div class="detail-item">
+                                <span>Coverage:</span>
+                                <span id="result-coverage">$500,000</span>
+                            </div>
+                            <div class="detail-item">
+                                <span>Term:</span>
+                                <span id="result-term">20 Years</span>
+                            </div>
+                            <div class="detail-item">
+                                <span>Total Cost:</span>
+                                <span id="total-cost">$0</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary" onclick="contactUs()">Get Full Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>1-800-9474156190</p>
+                            <p>Mon-Fri: 8AM-8PM EST</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>debnath@securelife.com</p>
+                            <p>debnathsupport@securelife.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 park street</p>
+                            <p>Kolkata, West Bengal, 700001</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Tell us about your insurance needs..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>SecureLife</span>
+                    </div>
+                    <p>Protecting families and securing futures since 1998. Your trusted partner in life insurance.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Term Life Insurance</a></li>
+                        <li><a href="#">Whole Life Insurance</a></li>
+                        <li><a href="#">Universal Life Insurance</a></li>
+                        <li><a href="#">Final Expense Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News & Updates</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Claims</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Customer Portal</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SecureLife Insurance. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
