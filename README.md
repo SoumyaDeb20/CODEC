@@ -1,1 +1,1 @@
-Secure Health insurance website
+Secure Life insurance website
